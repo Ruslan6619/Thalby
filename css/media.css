@@ -268,7 +268,7 @@
         padding-bottom: 11px;
     }
     .box-email input{
-        max-width: 303px;
+        max-width: 262px;
     }
     .form {
         padding-top: 50px;
@@ -298,6 +298,9 @@
     }
     .footer-title{
         padding-left: 8px;
+    }
+    .box-email input {
+        max-width: 250px;
     }
 }
 
