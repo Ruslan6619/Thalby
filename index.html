@@ -5,10 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Thalby</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/stile.css">
@@ -16,6 +18,20 @@
 
 </head>
 <body>
+
+<div id="dialog" title="Enter product name">
+   <form>
+       <div class="dialog-search">
+       <input type="search" placeholder="Search">
+       </div>
+
+       <div class="dialog-button">
+       <button type="submit">Search</button>
+       </div>
+   </form>
+</div>
+
+
 <header>
     <div class="container d-flex justify-between align-center">
         <nav>
@@ -49,7 +65,7 @@
             </li>
             <li>
                 <a href="#" title="search">
-                    <img src="images/search.svg " alt="img">
+                    <img id="opener" src="images/search.svg " alt="img">
                 </a>
             </li>
             <li>
@@ -374,9 +390,10 @@
 
 </footer>
 
-<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>-->
-<!--<script src="js/owl.carousel.js"></script>-->
-<!--<script src="js/scripts.js"></script>-->
-<!--<script src="https://kit.fontawesome.com/dd27ff6269.js" crossorigin="anonymous"></script>-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://kit.fontawesome.com/dd27ff6269.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 </body>
 </html>

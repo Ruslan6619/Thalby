@@ -685,7 +685,7 @@ footer nav li:first-of-type{
     margin-bottom: 36px;
     line-height: 23px;
 }
-.footer-title{
+ .footer-title{
     max-width: 215px;
     padding-left: 25px;
     padding-right: 47px;
@@ -706,27 +706,65 @@ footer h3{
     color: #FFFFFF;
     margin-top: 4px;
 }
-/*.owl-nav .owl-prev{*/
-/*    position: absolute;*/
-/*    left: -46px;*/
-/*    top: 35%;*/
-/*}*/
-/*.owl-nav .owl-prev:before{*/
-/*    font-family: "Font Awesome 6 Free";*/
-/*    font-weight: 900;*/
-/*    content: "\f060";*/
-/*    font-size: 50px;*/
-/*    color: black;*/
-/*}*/
-/*.owl-nav .owl-next{*/
-/*    position: absolute;*/
-/*    right: -46px;*/
-/*    top: 35%;*/
-/*}*/
-/*.owl-nav .owl-next:before{*/
-/*    font-family: "Font Awesome 6 Free";*/
-/*    font-weight: 900;*/
-/*    content: "\f061";*/
-/*    font-size: 50px;*/
-/*    color: black;*/
-/*}*/
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -46px;
+    top: 35%;
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f060";
+    font-size: 50px;
+    color: black;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -46px;
+    top: 35%;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f061";
+    font-size: 50px;
+    color: black;
+}
+
+.ui-widget.ui-widget-content{
+    border-radius: 20px;
+}
+
+.ui-widget-header{
+    width: 240px;
+    text-align: center;
+    margin: auto;
+    background: #F0EFEB;
+}
+.dialog-search{
+    margin-top: 15px;
+}
+.dialog-search input{
+    padding: 8px 0 8px 5px;
+    width: 270px;
+}
+.dialog-button{
+    margin-top: 14px;
+    text-align: center;
+}
+.ui-draggable .ui-dialog-titlebar{
+    border-radius: 11px;
+}
+.dialog-button button{
+    background: black;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 5px 23px;
+}
+
+
