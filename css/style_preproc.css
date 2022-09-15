@@ -19,6 +19,12 @@ header {
     @media screen and (max-width: 768px) {
       header .logo {
         display: contents; } }
+    @media screen and (max-width: 428px) {
+      header .logo {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        top: 0; } }
   header ul {
     list-style: none; }
     header ul lifirst-of-type {
@@ -64,7 +70,7 @@ header li:last-of-type {
   background-color: #F0EFEB;
   position: relative; }
   .main-banner h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -76,20 +82,23 @@ header li:last-of-type {
         font-size: 35px;
         line-height: 35px; } }
   .main-banner p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
     margin-bottom: 26px; }
+    @media screen and (max-width: 428px) {
+      .main-banner p {
+        font-size: 20px; } }
   .main-banner a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #FFF;
     display: inline-block;
     background: #000000;
     border: 1px solid #000000;
@@ -109,6 +118,11 @@ header li:last-of-type {
       .main-banner img {
         position: relative;
         right: 0; } }
+    @media screen and (max-width: 428px) {
+      .main-banner img {
+        position: relative;
+        right: 0;
+        width: 100%; } }
 
 .people {
   background: rgba(204, 204, 204, 0.3);
@@ -120,6 +134,9 @@ header li:last-of-type {
     @media screen and (max-width: 768px) {
       .people .for-img {
         margin-right: 0; } }
+  @media screen and (max-width: 768px) {
+    .people .d-flex {
+      flex-direction: column; } }
   .people .for-img img {
     width: 100%;
     display: block; }
@@ -129,7 +146,7 @@ header li:last-of-type {
       .people .description {
         text-align: center; } }
   .people h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -139,16 +156,23 @@ header li:last-of-type {
     @media screen and (max-width: 768px) {
       .people h2 {
         margin-top: 20px; } }
+    @media screen and (max-width: 428px) {
+      .people h2 {
+        font-size: 28px; } }
   .people p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     color: #000000;
     padding-bottom: 40px; }
+    @media screen and (max-width: 428px) {
+      .people p {
+        font-size: 32px;
+        line-height: 38px; } }
   .people a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -162,7 +186,7 @@ header li:last-of-type {
     .best {
       padding-bottom: 0; } }
   .best h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -172,19 +196,12 @@ header li:last-of-type {
     padding-top: 60px;
     padding-bottom: 27px; }
 
-@media screen and (max-width: 835px) {
-  .our-best {
-    flex-direction: column; } }
-@media screen and (max-width: 768px) {
-  .our-best {
-    flex-direction: column; } }
-
 .box-text {
   max-width: 650px;
   margin: auto;
   padding-bottom: 87px; }
   .box-text p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -193,7 +210,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 47px; }
   .box-text h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -202,7 +219,7 @@ header li:last-of-type {
     color: #000000; }
 
 .title-sellers {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -219,8 +236,14 @@ header li:last-of-type {
   @media screen and (max-width: 835px) {
     .box-images {
       padding-bottom: 60px; } }
+  @media screen and (max-width: 428px) {
+    .box-images {
+      padding-bottom: 70px; } }
+  @media screen and (max-width: 320px) {
+    .box-images {
+      margin: 0; } }
   .box-images p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -229,7 +252,7 @@ header li:last-of-type {
     color: #000000;
     padding-top: 27px; }
   .box-images h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -239,7 +262,7 @@ header li:last-of-type {
     padding-top: 17px;
     padding-bottom: 10px; }
   .box-images a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -258,7 +281,7 @@ header li:last-of-type {
     width: 100%;
     display: block; }
   .politics h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -268,16 +291,23 @@ header li:last-of-type {
     @media screen and (max-width: 768px) {
       .politics h3 {
         margin-top: 20px; } }
+    @media screen and (max-width: 428px) {
+      .politics h3 {
+        font-size: 30px; } }
   .politics p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     color: #000000;
     padding-bottom: 39px; }
+    @media screen and (max-width: 428px) {
+      .politics p {
+        font-size: 30px;
+        line-height: 36px; } }
   .politics a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -287,6 +317,9 @@ header li:last-of-type {
 
 .box-politics {
   max-width: 530px; }
+  @media screen and (max-width: 768px) {
+    .box-politics {
+      text-align: center; } }
 
 @media screen and (max-width: 768px) {
   .box-power-politics {
@@ -305,8 +338,11 @@ header li:last-of-type {
     /*text-align: right;*/
     color: #000000;
     padding-bottom: 31px; }
+    @media screen and (max-width: 428px) {
+      .culture h3 {
+        font-size: 30px; } }
   .culture p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -314,8 +350,12 @@ header li:last-of-type {
     /*text-align: right;*/
     color: #000000;
     padding-bottom: 31px; }
+    @media screen and (max-width: 428px) {
+      .culture p {
+        font-size: 31px;
+        line-height: 33px; } }
   .culture a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -327,6 +367,17 @@ header li:last-of-type {
 .box-culture {
   max-width: 513px;
   margin-right: 50px; }
+  @media screen and (max-width: 428px) {
+    .box-culture {
+      margin-bottom: 20px; } }
+
+@media screen and (max-width: 391px) {
+  .culture-img img {
+    width: 300px; } }
+
+@media screen and (max-width: 428px) {
+  .box-culture-heritage {
+    flex-direction: column; } }
 
 .justify-right {
   justify-content: flex-end; }
@@ -337,8 +388,11 @@ header li:last-of-type {
   @media screen and (max-width: 835px) {
     .colors {
       padding-top: 100px; } }
+  @media screen and (max-width: 428px) {
+    .colors {
+      padding-top: 70px; } }
   .colors h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -361,8 +415,11 @@ header li:last-of-type {
   width: 338px;
   text-align: center;
   margin-bottom: 110px; }
+  @media screen and (max-width: 428px) {
+    .box-all-colors {
+      width: 428px; } }
   .box-all-colors p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -371,7 +428,7 @@ header li:last-of-type {
     color: #000000; }
 
 .box-thalby h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -446,7 +503,7 @@ header li:last-of-type {
   text-align: center;
   margin-top: -188px; }
   .box-muller h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -456,7 +513,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 40px; }
   .box-muller p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -465,7 +522,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 2px; }
   .box-muller h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -474,7 +531,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 44px; }
   .box-muller a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -500,7 +557,7 @@ header li:last-of-type {
     display: block;
     width: 100%; }
   .box-sonia h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -510,7 +567,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 34px; }
   .box-sonia p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -519,7 +576,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 2px; }
   .box-sonia h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -528,7 +585,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 44px; }
   .box-sonia a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -551,7 +608,7 @@ header li:last-of-type {
     display: block;
     width: 100%; }
   .box-lilly h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -561,7 +618,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 34px; }
   .box-lilly p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -569,7 +626,7 @@ header li:last-of-type {
     text-align: center;
     color: #000000; }
   .box-lilly h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -578,7 +635,7 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 44px; }
   .box-lilly a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -590,6 +647,10 @@ header li:last-of-type {
 .form {
   padding-top: 79px;
   padding-bottom: 88px; }
+  @media screen and (max-width: 360px) {
+    .form {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
 
 .box-all-forms {
   margin: auto;
@@ -598,7 +659,7 @@ header li:last-of-type {
 .form-title {
   margin-bottom: 25px; }
   .form-title h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -607,21 +668,34 @@ header li:last-of-type {
     color: #000000;
     padding-bottom: 9px; }
   .form-title p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
     color: #000000; }
+    @media screen and (max-width: 428px) {
+      .form-title p {
+        font-size: 13px;
+        line-height: 17px; } }
+    @media screen and (max-width: 360px) {
+      .form-title p {
+        font-size: 11px; } }
 
 .box-forms {
   max-width: 366px;
   margin: auto; }
+  @media screen and (max-width: 428px) {
+    .box-forms {
+      max-width: 340px; } }
   .box-forms form {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
+  @media screen and (max-width: 360px) {
+    .box-forms {
+      max-width: 331px; } }
 
 .box-email input {
   width: 354px;
@@ -629,18 +703,47 @@ header li:last-of-type {
   padding-top: 10px;
   margin-top: 18px;
   padding-left: 8px; }
+  @media screen and (max-width: 428px) {
+    .box-email input {
+      width: 315px;
+      padding-bottom: 10px;
+      margin-top: 12px;
+      margin-left: 8px; } }
+  @media screen and (max-width: 360px) {
+    .box-email input {
+      max-width: 262px; } }
+  @media screen and (max-width: 320px) {
+    .box-email input {
+      max-width: 249px; } }
 
 .box-last-name input {
   width: 141px;
   padding-top: 12px;
   padding-bottom: 11px;
   padding-left: 8px; }
+  @media screen and (max-width: 428px) {
+    .box-last-name input {
+      padding-bottom: 10px;
+      margin-right: 7px; } }
+  @media screen and (max-width: 360px) {
+    .box-last-name input {
+      width: 114px;
+      padding-bottom: 11px;
+      margin-right: 50px; } }
 
 .box-first-name input {
   width: 141px;
   padding-top: 12px;
   padding-bottom: 11px;
   padding-left: 8px; }
+  @media screen and (max-width: 428px) {
+    .box-first-name input {
+      padding-bottom: 10px;
+      margin-left: 8px; } }
+  @media screen and (max-width: 360px) {
+    .box-first-name input {
+      width: 115px;
+      padding-bottom: 11px; } }
 
 .button-subscribe {
   margin: auto; }
@@ -654,7 +757,7 @@ header li:last-of-type {
     font-size: 14px;
     line-height: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
     padding: 7px 23px 10px 23px;
     margin-top: 23px; }
 
@@ -669,18 +772,25 @@ footer {
     font-size: 14px;
     line-height: 23px;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
     margin-top: 4px; }
+    @media screen and (max-width: 360px) {
+      footer h3 {
+        margin-top: 12px; } }
   footer li {
     margin-bottom: 12px; }
-  footer a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
-    text-decoration: none; }
+    footer li a {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #FFF;
+      text-decoration: none; }
+      @media screen and (max-width: 428px) {
+        footer li a {
+          font-size: 10px;
+          line-height: 16px; } }
 
 .box-footer {
   max-width: 1280px;
@@ -690,6 +800,12 @@ footer {
 
 .logo-footer {
   margin-left: 93px; }
+  @media screen and (max-width: 428px) {
+    .logo-footer {
+      margin-left: 15px; } }
+  @media screen and (max-width: 320px) {
+    .logo-footer {
+      width: 100px; } }
 
 .social-network {
   margin-left: 93px;
@@ -707,8 +823,11 @@ footer {
     @media screen and (max-width: 768px) {
       .social-network ul {
         margin-top: 170px; } }
-  .social-network li {
-    margin-right: 20px; }
+    @media screen and (max-width: 428px) {
+      .social-network ul {
+        margin-left: 15px; } }
+    .social-network ul li {
+      margin-right: 20px; }
 
 footer nav li:first-of-type {
   margin-bottom: 36px;
@@ -723,11 +842,35 @@ footer nav li:first-of-type {
     .footer-title {
       margin-left: 130px;
       margin-right: 0; } }
+  @media screen and (max-width: 428px) {
+    .footer-title {
+      margin-left: 25px;
+      padding-right: 10px; } }
+  @media screen and (max-width: 428px) {
+    .footer-title nav {
+      display: block; } }
+  @media screen and (max-width: 391px) {
+    .footer-title {
+      margin-left: 0;
+      padding-right: 5px; } }
+  @media screen and (max-width: 320px) {
+    .footer-title {
+      padding-left: 8px; } }
 
 .footer-info {
   max-width: 215px;
   padding-left: 25px;
   padding-right: 56px; }
+  @media screen and (max-width: 428px) {
+    .footer-info {
+      padding-right: 20px;
+      padding-left: 20px; } }
+  @media screen and (max-width: 391px) {
+    .footer-info {
+      padding-left: 8px; } }
+  @media screen and (max-width: 428px) {
+    .footer-info nav {
+      display: block; } }
 
 .owl-nav .owl-prev {
   position: absolute;
@@ -860,7 +1003,8 @@ body {
   top: 0; }
   @media screen and (max-width: 768px) {
     .nav {
-      position: fixed; } }
+      position: fixed;
+      display: none; } }
 
 .nav:before, .nav:after {
   content: "";
@@ -929,7 +1073,8 @@ body.nav-active .menu-icon:hover .menu-icon__line-right {
   width: 15px; }
 
 body.nav-active .nav {
-  visibility: visible; }
+  visibility: visible;
+  display: block; }
 
 body.nav-active .nav:before, body.nav-active .nav:after {
   -webkit-transform: translateX(0%) translateY(0%);
