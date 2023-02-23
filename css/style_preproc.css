@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
 header {
   background-color: #FFF;
   padding: 7px 0; }
@@ -43,7 +46,7 @@ header {
 .container {
   margin: auto;
   max-width: 1064px; }
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1024px) {
     .container {
       padding: 0 15px; } }
 
@@ -105,11 +108,18 @@ header li:last-of-type {
     border-radius: 100px;
     padding: 7px 23px;
     text-decoration: none; }
+    .main-banner a:hover {
+      background-color: rgba(0, 0, 0, 0.6); }
   .main-banner img {
     position: absolute;
     right: 60px;
     top: 0; }
-    @media screen and (max-width: 835px) {
+    @media screen and (max-width: 1024px) {
+      .main-banner img {
+        position: absolute;
+        right: -80px;
+        top: 0; } }
+    @media screen and (max-width: 927px) {
       .main-banner img {
         position: relative;
         right: 0;
@@ -341,6 +351,9 @@ header li:last-of-type {
     @media screen and (max-width: 428px) {
       .culture h3 {
         font-size: 30px; } }
+    @media screen and (max-width: 668px) {
+      .culture h3 {
+        padding-top: 40px; } }
   .culture p {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -378,6 +391,9 @@ header li:last-of-type {
 @media screen and (max-width: 428px) {
   .box-culture-heritage {
     flex-direction: column; } }
+@media screen and (max-width: 800px) {
+  .box-culture-heritage {
+    flex-direction: column-reverse; } }
 
 .justify-right {
   justify-content: flex-end; }
@@ -410,6 +426,9 @@ header li:last-of-type {
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 51px; }
+  @media screen and (max-width: 668px) {
+    .box-colors {
+      justify-content: center; } }
 
 .box-all-colors {
   width: 338px;
@@ -760,6 +779,8 @@ header li:last-of-type {
     color: #FFF;
     padding: 7px 23px 10px 23px;
     margin-top: 23px; }
+    .button-subscribe button:hover {
+      background-color: rgba(0, 0, 0, 0.6); }
 
 footer {
   background: #020202;
